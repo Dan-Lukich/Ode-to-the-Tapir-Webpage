@@ -1,0 +1,42 @@
+#image {
+    max-width: max-content;
+    min-width: min-content;
+  
+    border-radius: 15px;
+  
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}
+
+#title {
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+}
+
+#img-div {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+#img-caption {
+  text-align: center;
+  font-size: 1.3em;
+} 
+
+body {
+    position: relative;
+}
+
+article {
+    margin-left: 10%;
+}
+
+section {
+    font-size: 2em;
+}
